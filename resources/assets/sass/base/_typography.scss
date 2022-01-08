@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'DINRegular';
+    src: url('../../fonts/DINRegular/DINRegular.ttf');
+}
+
+body {
+    font-family: 'DINRegular', sans-serif;
+    color: $body_color;
+}

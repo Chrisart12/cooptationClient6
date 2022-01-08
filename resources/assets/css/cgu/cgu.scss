@@ -1,0 +1,42 @@
+@import "../variables";
+@import "../navbars";
+
+.container{
+	padding-bottom: 7vh;
+}
+
+/* gallery page */
+.cgu {
+	& .content{ 
+		color: $black;
+		text-align:justify; 
+		height:78vh;
+		overflow: hidden;
+		& .scrollable {
+			width: 100%;
+			height: 100%;
+			overflow-y: scroll;
+			padding-right: 17px; /* Increase/decrease this value for cross-browser compatibility */
+			box-sizing: content-box; /* So the width will be 100% + 17px */
+			
+			& .title{
+				text-align:center;
+				font-size: 4vh;
+			}
+			& .cguContent{
+				text-align:left;
+				font-size: 2vh;
+				
+				& .article{
+					font-family: 'DinMedium' !important;
+				}
+			}
+		}
+	}
+}
+
+#content {
+	transition:all .3s;
+	width:100%;
+	height:100%;
+}

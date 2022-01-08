@@ -1,0 +1,68 @@
+.header-btn-menu{
+    cursor: pointer;
+}
+
+
+.open {
+    background-color: darkviolet;
+    height: 94vh;
+    width: 100%;
+    transform-origin: 50% 0%;
+    transform: scaleY(1);
+    transition: transform 1s; 
+    pointer-events: all;
+    position: absolute;
+    z-index: 9999;
+}
+
+.container-menu .links-menu {
+    opacity: 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.container-menu .links-menu:nth-child(1) {
+    transition: all 0.5s ease 0.2s;
+}
+
+.container-menu .links-menu:nth-child(2)  {
+    transition: all 0.5s ease 0.4s;
+}
+
+.container-menu .links-menu:nth-child(3)  {
+    transition: all 0.5s ease 0.6s;
+}
+
+.container-menu .links-menu:nth-child(4)  {
+    transition: all 0.5s ease 0.8s;
+}
+
+.visu {
+    opacity: 1;
+}
+
+
+.navbar-menu{
+    background-color: darkviolet;
+    height: 94vh;
+    transform-origin: 50% 0%;
+    transform: scaleY(0);
+    transition: transform 1s; 
+    pointer-events: none;
+  
+}
+
+.container-menu {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -30%);
+
+}
+
+a {
+    text-decoration: none;
+    font-size: 25px;
+    margin-bottom: 80px;
+    color: $btn_color;
+}

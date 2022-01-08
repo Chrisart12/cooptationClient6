@@ -1,0 +1,51 @@
+@import "../variables";
+@import "../navbars";
+
+/* story page */
+.container {
+	/*height: 60vh;*/
+	height: 83vh;
+	height: calc(var(--vh, 1vh) * 83);
+}
+
+.navbar{
+	margin-bottom: 0;
+}
+
+.story {
+height: 100%;
+	
+	& .content{ 
+		/*height: 100%;*/
+		height: 78vh;
+		height: calc(var(--vh, 1vh) * 78);
+		text-align:center; 
+		padding: 0;
+		
+		& .box {
+			/*height: 100%;*/
+			height: 60vh;
+			height: calc(var(--vh, 1vh) * 60);
+			display: flex;
+			align-items: flex-end;
+			justify-content: center;
+			border: 2vh solid $white;
+			border-top: 1vh solid $white;
+			
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+		}
+			
+		& .text {
+			font-size: 1.75vh;
+			font-size: calc(var(--vh, 1vh) * 1.75);
+		}
+	}
+}
+
+#content {
+	transition:all .3s;
+	width:100%;
+	height:100%;
+}

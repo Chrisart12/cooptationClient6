@@ -1,0 +1,31 @@
+.jobs-list_label{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    background-color: #d81b60;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.jobs-list_flex{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f06292;
+
+    .jobs-list_flex_link{
+        color: white
+    }
+
+    .jobs-list_flex_link:hover{
+        background-color: #d81b60;
+        font-style: italic;
+        text-decoration: none;
+    }
+}
+
+.jobs-title-location{
+    font-size: 20px;
+    padding: 10px;
+}
+
+// #e91e63

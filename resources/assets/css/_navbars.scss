@@ -1,0 +1,141 @@
+.navbar {
+	background-color:$white;
+	text-align:center;
+	
+	&.header{
+		border-bottom: 1px solid $grey !important;
+		height: 8vh;
+		position: fixed;
+		width: 100%;
+		top: 0;
+		z-index: 9999;
+		
+		& .back {
+			font-size: 5vh;
+			position: absolute;
+			left: 1.25vw;
+			top: 1.25vh;
+			& .link {
+				color: $red;
+				& :active, :link, :visited{
+					color: $red;
+				}
+			}
+		}
+		& .cgu, .confirm {
+			font-size: 5vh;
+			position: absolute;
+			right: 1.25vw;
+			top: 1.25vh;
+			& .link {
+				color: $red;
+				& :active, :link, :visited{
+					color: $red;
+				}
+			}
+		}
+		& #openSearch {
+			font-size: 5vh;
+			position: absolute;
+			left: 1.25vw;
+			top: 1.25vh;
+			color: $red;
+		}
+		& #searchArea{
+			height: 8vh;
+			display: none;
+		
+			& #closeSearch {
+				font-size: 5vh;
+				position: absolute;
+				right: 1.25vw;
+				top: 1.25vh;
+				color: $red;
+			}
+			& #search {
+				font-size: 5vh;
+				position: absolute;
+				left: 1.25vw;
+				top: 1.25vh;
+				color: $red;
+			}
+			& #searchInput {
+				width: 85vw;
+				height: 7vh;
+				padding-left: 6vh;
+				font-size: 2vh;
+			}
+		}
+		& .confirm{
+			display:none;
+		}
+		& .title {
+			line-height: 8vh;
+			margin: 0;
+			font-size: 3.5vh;
+		}
+	}
+	&.footer{
+		border-top: 1px solid $grey !important;
+		bottom: 0px;
+		position: fixed;
+		width: 100%;
+		height: 8vh;
+		margin: 0;
+		
+		& .container {
+			height: 100%;
+			& .menus{
+				height: 100%;
+				& .menu{
+					color: $black;
+					height: 100%;
+					font-size: 5vh;
+					padding-top: 1vh;
+					&.active{
+						color: $red !important;
+						& .link {
+							color: inherit;
+						}
+					}
+					& .link {
+						color: inherit;
+					}
+				}
+			}
+			& .mystory{
+				width: 100%;
+				background-color: $red;
+				height: 100%;
+				position: absolute;
+				left: 0;
+				display: flex;
+				align-items: center;
+				
+				& .validation{
+					width: 100%;
+					color: $white;
+				}
+			}
+			& .pictures{
+				height: 100%;
+				display: flex;
+				
+				& .picture{
+					display: flex;
+				    align-items: center;
+					justify-content: center;
+					flex: 1 1 auto;
+					height:100%;
+					color: $red;
+					font-weight: bold;
+					font-size: 3vh;
+					
+					&.active{
+						color: $red;
+					}
+				}
+			}
+		}
+	}
+}

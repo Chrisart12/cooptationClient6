@@ -1,0 +1,438 @@
+/*-------USER---------*/
+#menu, .confirmOffer
+{
+	margin-top: 60px;
+}
+
+/***MENU*** */
+.container-menu
+{
+	padding-top: 8vh;
+}
+.menu
+{
+	padding-top: 3vh;
+	font-size: 2rem;
+	/* width: 10vh; */
+	/* border-radius: 5px;
+	box-shadow: 1px 2px 4px #494949; */
+	margin: auto;
+    
+}
+
+.deconnect
+{
+	padding-top: 2vh;
+	font-size: 0.7rem;
+}
+
+/* .liMenuElt {
+    font-size: 27px;
+    margin: auto;
+    margin-top: 25px;
+    color: #ab000d;
+    cursor: pointer;
+    width: 30vh;
+    border-radius: 5px;
+    box-shadow: 1px 2px 4px #494949;
+  } */
+/***********************/
+.border-input
+{
+	border: 1px solid black;
+}
+
+.texte
+{
+	font-size: 18px;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+
+.envoyer
+{
+	background-color: black;
+	color: white;
+}
+
+.formOffer
+{
+	margin-top: 30px;
+}
+
+/*---Offres-------*/
+.offres
+{
+	margin: auto;
+}
+
+.pages_user_cooptation
+{
+	margin-top: 25px;
+}
+
+.textes_user_offres
+{
+	font-size: 1.2em;
+}
+/*----END USER----*/
+
+/*-------- ADMIN -----*/
+/*---Header----*/
+.cooptation
+{
+	position: relative;
+	background-color: #000000;
+	color: white;
+	padding: 10px;
+	border: black;
+	width: 105px;
+	height: 35px;
+}
+
+.cooptation:hover
+{
+	background-color: #FFFFFF;
+	color: #443737;
+	box-shadow: 2px 1px 4px;
+}
+/*---End header----*/
+
+/*-- section ---*/
+.pages
+{
+	margin-top: 60px;
+}
+
+.retour
+{
+	width: 105px;
+	height: 35px;
+	color: #000000 ;
+}
+
+.retour:hover
+{
+	color: #443737;
+	box-shadow: 2px 1px 4px;
+}
+
+.bouton
+{
+	display: flex;
+	justify-content: space-between;
+	margin-right: 180px;
+	margin-left: 180px;
+}
+
+.listeCooptation
+{
+	margin-top: 40px;
+	color: white;
+}
+
+.cooptants
+{
+	color: white;
+	font-size: 16px;
+}
+
+.designation
+{
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.voir
+{
+	width: 105px;
+	height: 35px;
+	background-color: #FFFFFF;
+	border: 1px solid black;
+	/* border-radius: 5px; */
+	font-weight: 600;
+	color: black;
+}
+
+.coopterBouton
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+.voir:hover
+{
+	box-shadow: 2px 1px 4px;
+	background-color: #bbdefb;
+}
+
+.etapes
+{
+	width: 290px;
+	height: 40px;
+	background-color: #FFFFFF;
+	color:  #000000;
+	padding-top: 5px;
+	font-size: 20px;
+	margin-bottom: 10px;
+
+}
+
+
+
+.etapes:hover
+{
+	box-shadow: 2px 1px 4px;
+	background-color: #bbdefb;
+}
+
+
+.etape
+{
+	width: 140px;
+	margin-right: 10px;
+	height: 40px;
+	background-color: #FFFFFF;
+	color: #443737;
+}
+
+.dates
+{
+	width: 290px;
+	height: 40px;
+}
+
+/* Message pour la cooptation */
+.flash
+{
+	/*position: absolute;*/
+	top: 100px;
+	width: 300px;
+	z-index: 10000;
+	background-color: #000000;
+} 
+
+.text_valider
+{
+	color: #FFFFFF;
+	font-style: italic;
+	font-size: 1.2em;
+}
+
+.valider_etape
+{
+	background-color: #000000;
+	color: white;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	width: 105px;
+	height: 35px;
+	border: black;
+}
+
+.valider_etape:hover
+{
+	background-color: #FFFFFF;
+	color: #443737;
+	box-shadow: 2px 1px 4px;
+}
+
+td
+{
+	border-bottom: 1px solid #c10927;
+	border-top: 1px solid#c10927;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+#body
+{
+	background-color: #c10927;;
+}
+
+#page404
+{
+ color: #FFFFFF;
+ margin: auto;
+ text-align: center;
+ font-size: 50px;
+}
+
+.historics
+{
+	background-color: #69f0ae;
+}
+
+.alignement
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+.date
+{
+	width: 290px;
+	height: 40px;
+	color: #FFFFFF;
+	padding-top: 5px;
+	font-size: 20px;
+}
+
+.fin_etape
+{
+	color: #FFFFFF;
+	background-color: #000000;
+}
+
+.step
+{
+	border-bottom: 1px solid white;
+}
+
+/*---OFFRES---*/
+.description
+{
+	width: 750px;
+
+}
+
+.edit_delete
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+.liste_offre_admin
+{
+	color: white;
+	font-size: 1.2em;
+	text-align: justify;
+	
+}
+
+a.liste_offre_admin.titre_offres
+{
+	text-decoration-line: underline; 
+}
+
+a.liste_offre_admin:hover
+{
+	color: #000000;
+}
+
+hr
+{
+	border: 1px solid #c10927;;
+}
+
+.text_admin
+{
+	color: #FFFFFF;
+	font-size: 1.2em;
+}
+
+.text_margin_bottom
+{
+	margin-bottom: 40px;
+}
+
+.color-etape
+{
+	background-color: #69f0ae;
+}
+
+.fin-etape
+{
+	background-color: #69f0ae;
+	width: 290px;
+	height: 40px;
+	color:  #000000;
+	padding-top: 5px;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.fin-etape:hover
+{
+	cursor: no-drop;
+}
+
+.formRecherche
+{
+	margin-top: 85px;
+	margin-right: 110px
+}
+
+#search
+{
+	font-size: 20px;
+}
+
+.arrow-round-back
+{
+	position:relative;
+	/* margin-right: 320px; */
+	margin-right: 85vw;
+	color: #c10927;;
+}
+
+/* .navbar-offres
+{
+	display: flex;
+} */
+
+/* .form-inline
+{
+	width: 50vh;
+	margin: auto;
+	margin-top: 1vh;
+	justify-content: center;
+} */
+
+/* #butonsearch */
+/* { */
+	/* position:relative; */
+	/* margin-left: 290px;
+	margin-top: -35px; */
+	/* margin-left: 40vh;
+	margin-top: -5.3vh; */
+/* } */
+
+.help-block
+{
+	color: white !important;
+
+}
+
+/***BARRE DE RECHERCHE***/
+.form-search
+{
+    
+     display: flex;
+     width: 51vh;
+     margin-left: 2.5vh;
+     /* margin-top: -50px */
+}
+
+.input-flex
+{
+	width: 45vh;
+	/* width: 320px; */
+}
+
+.form-fixed-back
+{
+    position: fixed;
+    background-color: white;
+    /* height: 60px;
+    min-width: 400px;
+    padding-top: 10px;
+	margin-top: -60px */
+	
+	/* height: 10px; */
+    /* min-width: 400px; */
+    /* padding-top: 0px; */
+    margin-top: 10px
+}
+

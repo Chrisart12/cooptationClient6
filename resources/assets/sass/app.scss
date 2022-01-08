@@ -1,0 +1,16 @@
+// @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+//utils
+@import "./utils/variables.scss";
+
+//base
+@import "./base/base.scss";
+@import "./base/typography.scss";
+
+//layout
+@import "./layout/header";
+@import "./layout/menu";
+
+//page
+@import "./pages/jobs";
+
+

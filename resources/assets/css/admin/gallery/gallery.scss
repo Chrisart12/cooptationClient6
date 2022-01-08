@@ -1,0 +1,106 @@
+@import "../variables";
+@import "../navbars";
+
+.container{
+	/*padding-top: 6vh;*/
+}
+
+/* gallery page */
+.gallery {
+	& .content{ 
+		height: 92vh;
+		/*overflow: hidden;*/
+		text-align:center; 
+		margin-top: 60px;
+		
+		& .stories {
+			/*overflow-y: scroll;*/
+			height: 100%;
+			box-sizing: content-box;
+			
+			& .lastStories{
+				height: 5vh;
+				line-height: 5vh;
+				font-size: 2vh;
+			}
+			
+			& .oldStories{
+				height: 5vh;
+				line-height: 5vh;
+				font-size: 2vh;
+			}
+			
+			& .storyBox{
+				padding: 0;
+			}
+			
+			& .story {
+				height:35vh;
+				background-repeat: no-repeat; 
+				background-size:cover; 
+				background-position: center;
+				position: relative;
+				border: 1px solid $red;
+				
+				& .fullname {
+					position:absolute;
+					width:100%;
+					text-overflow: ellipsis;
+					white-space: nowrap;
+					overflow: hidden;
+					padding: 0 5px;
+					color: $white;
+					text-shadow: 1px 0 0 $black, -1px 0 0 $black, 0 1px 0 $black, 0 -1px 0 $black, 1px 1px $black, -1px -1px 0 $black, 1px -1px 0 $black, -1px 1px 0 $black;
+				}
+				& .like {
+					position:absolute;
+					width:100%;
+					height: 6vh;
+					/*line-height:5vh;*/
+					bottom: 0;
+					padding: 0;
+					font-size: 6vh;
+					text-align: left;
+					color: $red;
+				}
+				& .likeCount {
+					position:absolute;
+					bottom: 0;
+					padding: 0;
+					text-align: left;
+					color: $white;
+					font-size: 2vh;
+					height: 6vh;
+					width: 6vh;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+				}
+			}
+		}
+	}
+}
+
+.loader {
+  border: 16px solid $black; /* Light grey */
+  border-top: 16px solid $red; /* Blue */
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.navbar{
+	margin-bottom: 0;
+}
+
+#content {
+	transition:all .3s;
+	width:100%;
+	height:100%;
+}

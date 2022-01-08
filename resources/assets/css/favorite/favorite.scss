@@ -1,0 +1,117 @@
+@import "../variables";
+@import "../navbars";
+
+.container{
+	padding-bottom: 7vh;
+}
+
+/* favorite page */
+.favorite {
+	& .content{ 
+		height: 84vh;
+		overflow: hidden;
+		text-align:center; 
+		
+		& .stories {
+			overflow-y: scroll;
+			height: 100%;
+			box-sizing: content-box;
+			
+			& .storyBox{
+				padding: 0;
+				border: 1px solid rgba(0,0,0,0.25);
+			}
+			
+			& .story {
+				height:35vh;
+				background-repeat: no-repeat; 
+				background-size:cover; 
+				background-position: center;
+				position: relative;
+				/*border: 1px solid $white;*/
+				border: 2vh solid $white;
+				border-bottom: 3.5vh solid $white;
+				
+				& .fullname {
+					position:absolute;
+					width:100%;
+					text-overflow: ellipsis;
+					white-space: nowrap;
+					overflow: hidden;
+					padding: 0 5px;
+					/*color: $white;
+					text-shadow: 1px 0 0 $black, -1px 0 0 $black, 0 1px 0 $black, 0 -1px 0 $black, 1px 1px $black, -1px -1px 0 $black, 1px -1px 0 $black, -1px 1px 0 $black;*/
+					bottom: -3vh;
+					color: $black;
+				}
+				& .like {
+					position:absolute;
+					width:100%;
+					height: 4vh;
+					line-height:5vh;
+					bottom: 0;
+					padding: 0;
+					font-size: 4vh;
+					text-align: left;
+					color: $red;
+				}
+			}
+			
+			/*& .story {
+				color: $grey;
+				margin-bottom:5vh;
+				height:35vh;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				border: 2px solid $black;
+				
+				& a {
+					color: inherit;
+				}
+				
+				& .box {
+					position: relative;
+					
+					& .fullname {
+						position:absolute;
+						width:100%;
+						height: 4vh;
+						line-height:4vh;
+						text-overflow: ellipsis;
+						white-space: nowrap;
+						overflow: hidden;
+						padding: 0 5px;
+						color: $white;
+						text-shadow: 1px 0 0 $black, -1px 0 0 $black, 0 1px 0 $black, 0 -1px 0 $black, 1px 1px $black, -1px -1px 0 $black, 1px -1px 0 $black, -1px 1px 0 $black;
+					}
+					& .like {
+						position:absolute;
+						width:100%;
+						height: 4vh;
+						line-height:5vh;
+						bottom: 0;
+						padding: 0;
+						font-size: 4vh;
+						text-align: left;
+						color: $red;
+					}
+					& img {
+						max-width: 100%;
+						max-height: 100%;
+					}
+				}
+			}*/
+		}
+	}
+}
+
+.navbar{
+	margin-bottom: 0;
+}
+
+#content {
+	transition:all .3s;
+	width:100%;
+	height:100%;
+}
